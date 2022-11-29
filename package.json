@@ -1,4 +1,5 @@
 {
+  "homepage": "https://JesusPlasencia.github.io/course-dom-manipulation.git",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
