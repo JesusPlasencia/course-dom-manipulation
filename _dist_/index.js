@@ -6,6 +6,12 @@ const BASE_IMAGE = 'https://platzi-avo.vercel.app';
 // container
 const APP_CONTAINER = document.querySelector('div#app');
 
+APP_CONTAINER.addEventListener('click', (event) => {
+    if (event.target.nodeName === 'H2') {
+        window.alert('Hello');
+    }
+})
+
 async function fetchData() {
     let itemsFetch = [];
     const request = await fetch(BASE_URL);
